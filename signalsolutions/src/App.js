@@ -1,10 +1,11 @@
 import './App.css';
-import ExtractEachKth from './components/extractEachKth/extractEachKth.jsx';
+
+import DifferentSymbolsNaive from './components/differentSymbolsNaive/differentSymbolsNaive';
 
 
 function App() {
   return (
-    <ExtractEachKth />
+    <DifferentSymbolsNaive />
   );
 }
 
