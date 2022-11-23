@@ -1,11 +1,10 @@
 import './App.css';
 
-import ArrayMaxConsecutiveSum from './components/arrayMaxConsecutiveSum/arrayMaxConsecutiveSum';
-
+import GrowingPlant from './components/growingPlant/growingPlant';
 
 function App() {
   return (
-    <ArrayMaxConsecutiveSum />
+    <GrowingPlant />
   );
 }
 
