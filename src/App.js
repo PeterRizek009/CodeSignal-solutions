@@ -1,10 +1,11 @@
 import './App.css';
 
-import GrowingPlant from './components/growingPlant/growingPlant';
+import DigitDegree from './components/digitDegree/digitDegree';
+
 
 function App() {
   return (
-    <GrowingPlant />
+    <DigitDegree />
   );
 }
 
