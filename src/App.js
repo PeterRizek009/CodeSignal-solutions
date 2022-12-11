@@ -1,11 +1,11 @@
 import './App.css';
 
-import DigitDegree from './components/digitDegree/digitDegree';
+import FindEmailDomain from './components/FindEmailDomain/FindEmailDomain';
 
 
 function App() {
   return (
-    <DigitDegree />
+    <FindEmailDomain />
   );
 }
 
