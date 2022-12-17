@@ -1,11 +1,10 @@
 import './App.css';
 
-import FindEmailDomain from './components/FindEmailDomain/FindEmailDomain';
-
+import ElectionsWinners from './components/ElectionsWinners/electionswinners';
 
 function App() {
   return (
-    <FindEmailDomain />
+    <ElectionsWinners />
   );
 }
 
