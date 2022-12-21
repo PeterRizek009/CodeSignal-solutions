@@ -1,10 +1,10 @@
 import './App.css';
 
-import ElectionsWinners from './components/ElectionsWinners/electionswinners';
+import IsMAC48Address from './components/IsMAC48Address/IsMAC48Address';
 
 function App() {
   return (
-    <ElectionsWinners />
+    <IsMAC48Address />
   );
 }
 
