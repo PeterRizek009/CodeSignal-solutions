@@ -1,10 +1,10 @@
 import './App.css';
 
-import IsDigit from './components/isDigit/isDigit';
+import FirstDuplicate from './components/firstDuplicate/firstDuplicate';
 
 function App() {
   return (
-    <IsDigit />
+    <FirstDuplicate />
   );
 }
 
