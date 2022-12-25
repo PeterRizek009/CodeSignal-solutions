@@ -1,10 +1,10 @@
 import './App.css';
 
-import FirstDuplicate from './components/firstDuplicate/firstDuplicate';
+import DeleteDigit from './components/deleteDigit/deleteDigit';
 
 function App() {
   return (
-    <FirstDuplicate />
+    <DeleteDigit />
   );
 }
 
