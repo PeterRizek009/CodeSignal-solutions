@@ -3,29 +3,30 @@ import React from 'react';
 
 
 const DeleteDigit = () => {
-    let n = 222250;
-    let number =  [...`${n}`].map(Number);
+    let n = 1001;
+    let number = [...`${n}`].map(Number);
 
- 
-    if(number.length > 3){
-        if (number[number.length -1 ] === 0){
-            if(number[number.length -2] > number[number.length -3]){
-                number =  number.slice(1);
-                console.log(number);
+
+    if (number.length > 3) {
+        if (number[number.length - 1] === 0) {
+            if (number[number.length - 2] > number[number.length - 3]) {
+                delete number[0]
+                const second = Number(number.join(''));
+                console.log(second);
+                return second;
             }
         }
-    }
+    } else {
         // let minNum=  Math.min(...number)
-            delete number[number.indexOf(Math.min(...number))];
-        const firstCheck  = Number(number.join(''));
+        delete number[number.indexOf(Math.min(...number))];
+        const firstCheck = Number(number.join(''));
 
-       console.log(delete number[number.indexOf(Math.min(...number))]); 
-           
+
         console.log(firstCheck);
         return firstCheck;
-    
-    
-    
+    }
+
+
     return (<></>);
 }
 

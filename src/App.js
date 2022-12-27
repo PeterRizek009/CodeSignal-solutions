@@ -1,10 +1,10 @@
 import './App.css';
 
-import DeleteDigit from './components/deleteDigit/deleteDigit';
+import LongestWord from './components/longestWord/longestWord';
 
 function App() {
   return (
-    <DeleteDigit />
+    <LongestWord />
   );
 }
 
