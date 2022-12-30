@@ -1,10 +1,12 @@
 import './App.css';
 
-import LongestWord from './components/longestWord/longestWord';
+
+import ValidTime from './components/ValidTime/ValidTime';
+
 
 function App() {
   return (
-    <LongestWord />
+    <ValidTime />
   );
 }
 
