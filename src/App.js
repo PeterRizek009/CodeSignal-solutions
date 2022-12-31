@@ -1,12 +1,12 @@
 import './App.css';
 
 
-import ValidTime from './components/ValidTime/ValidTime';
+import SumUpNumbers from './components/sumUpNumbers/sumUpNumbers';
 
 
 function App() {
   return (
-    <ValidTime />
+    <SumUpNumbers />
   );
 }
 
