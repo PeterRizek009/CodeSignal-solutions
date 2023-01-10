@@ -1,12 +1,12 @@
 import './App.css';
 
 
-import SumUpNumbers from './components/sumUpNumbers/sumUpNumbers';
+import DifferentSquares from './components/DifferentSquares/DifferentSquares';
 
 
 function App() {
   return (
-    <SumUpNumbers />
+    <DifferentSquares />
   );
 }
 
