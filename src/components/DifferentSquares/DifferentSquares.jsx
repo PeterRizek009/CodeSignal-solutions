@@ -9,10 +9,10 @@ const DifferentSquares = () => {
         [1, 2, 3],
         [2, 2, 1]];
 
-    let result = [];
+    
     let count = 1;
 
-
+    
     if (matrix.length === 1 || matrix[0].length === 1) {
         return 0
     } else {
@@ -29,6 +29,7 @@ const DifferentSquares = () => {
         }
     }
     console.log(count);
+    return count === 2 ? count-- : count;
 
     return (<></>);
 }
